@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My first Suite">
+    <test verbose="1" preserve-order="true" name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo">
+        <classes>
+            <class name="DemoTest.DemoTest">
+                <methods>
+                    <include name="demo1"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
