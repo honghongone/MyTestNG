@@ -10,6 +10,8 @@
             </class>
             <class name="DemoTest.DemoTest"></class>
             <class name="DemoTest.EmailTest"></class>
+            <class name="DemoTest.JustTest"></class>
+
 
         </classes>
     </test>
