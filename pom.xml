@@ -40,7 +40,6 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>test.xml</suiteXmlFile>
-<!--                        <suiteXmlFile>test1.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
