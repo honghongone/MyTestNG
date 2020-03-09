@@ -25,16 +25,16 @@ public class EmailTest {
 
     }
 
-    @Epic("反向epic")
-    @Story("反向story")
-    @Step("输入null验证邮箱生成器")
-    @Severity(SeverityLevel.NORMAL)
-    @Test(description = "邮箱生成的反向测试用例" )
-    public void testGenerateEmailException(String input,String emailex){
-        // Assert.assertEquals(application.generrateEmail(input),email);
-        String result=email.generrateEmail(null);
-
-    }
+//    @Epic("反向epic")
+//    @Story("反向story")
+//    @Step("输入null验证邮箱生成器")
+//    @Severity(SeverityLevel.NORMAL)
+//    @Test(description = "邮箱生成的反向测试用例" )
+//    public void testGenerateEmailException(String input,String emailex){
+//        // Assert.assertEquals(application.generrateEmail(input),email);
+//        String result=email.generrateEmail(null);
+//
+//    }
 
 
     @DataProvider(name="emaildemo")
