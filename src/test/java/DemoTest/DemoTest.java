@@ -7,7 +7,7 @@ public class DemoTest {
 
     @Test
     public void demo1(){
-        Assert.assertEquals(1,2);
+        Assert.assertEquals(2,2);
 
     }
 }

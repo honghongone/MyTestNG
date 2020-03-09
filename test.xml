@@ -4,10 +4,12 @@
     <test verbose="1" preserve-order="true" name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo">
         <classes>
             <class name="DemoTest.LoginTest">
-                <methods>
-                    <include name="demo1"></include>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="demo1"></include>-->
+<!--                </methods>-->
             </class>
+            <class name="DemoTest.DemoTest"></class>
+            <class name="DemoTest.EmailTest"></class>
 
         </classes>
     </test>
