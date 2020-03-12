@@ -9,4 +9,9 @@ public class JustTest {
     public void test(){
         Assert.assertEquals(1,2);
     }
+
+    @Test
+    public void test2(){
+        Assert.assertEquals(2,3);
+    }
 }
