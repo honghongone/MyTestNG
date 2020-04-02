@@ -5,12 +5,17 @@ import org.testng.annotations.DataProvider;
 public class DataOfLogin {
 
     @DataProvider
-    public Object[][] getUsers(){
+    public static Object[][] getUsers(){
         return new Object[][]{
                 {"zhangsan","123456","欢迎zhangsan"},
                 {"lisi","","用户名或密码不能为空"},
                 {"","","用户名或密码不能为空"},
                 {"admin","123456","欢迎管理员"}
         };
+    }
+
+
+    public DataOfLogin(int age){
+        System.out.println(age);
     }
 }
